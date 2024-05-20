@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+
+    <!-- PRELOAD -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <!--Logo-->
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+                <!--Navegacion-->
+            </div>
+            <!--Barra Superior-->
+        </div>
+        <!--Contenedor Barra-->
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de Café con Consejos y Cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+        <!--Texto del Header-->
+    </header>
+    <!--Header-->
+    <main class="contenedor">
+        <h3 class="centrar-texto">Sobre Nosotros</h3>
+
+        <div class="sobre-nosotros">
+            <div class="sobre-nosotros__imagen">
+                <picture>
+                    <source loading="lazy" srcset="img/nosotros.webp" type="image/webp">
+                    <img loading="lazy" src="img/nosotros.jpg" alt="imagen nosotros">
+                </picture>
+            </div>
+
+            <div class="sobre-nosotros__texto">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate imperdiet felis, et
+                    varius eros auctor nec. Vivamus laoreet mauris id lobortis tempor. Aenean consectetur sollicitudin
+                    odio ac ornare. Curabitur laoreet nulla eu eros tempor facilisis. Integer sed nisi at lacus
+                    efficitur convallis. Phasellus vulputate nisi ac turpis mollis, in fringilla mi congue. Sed quis
+                    velit luctus, lacinia neque nec, interdum ante.
+                </p>
+                <p>
+                    Vivamus volutpat imperdiet volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    vehicula tincidunt ante in malesuada. Maecenas id hendrerit elit, vel semper purus. Pellentesque
+                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                </p>
+            </div>
+        </div>
+        <!--Sobre Nosotros-->
+    </main>
+    <!--Contenido Nosotros-->
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <!--Logo-->
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+                <!--Navegacion-->
+            </div>
+            <!--Barra Inferior-->
+        </div>
+        <!--Contenedor Barra-->
+    </footer>
+    <!--Footer-->
+    <script src="js/modernizr.js"></script>
+    <!--Modernizr(webp)-->
+</body>
+
+</html>
