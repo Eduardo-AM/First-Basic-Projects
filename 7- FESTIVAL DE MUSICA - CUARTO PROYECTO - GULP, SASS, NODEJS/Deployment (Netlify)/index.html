@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & Indie Festival</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & Indie Festival</h1>
+
+            <div class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>
+                    Rock & Indie Festival
+                    <span>Julio 2024, Buenos Aires, Argentina</span>
+                </h2>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <div class="contenedor info-festival">
+        <div class="imagen">
+            <img src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock & Indie Festival</h2>
+            <p class="fecha">Julio 2024, Buenos Aires, Argentina</p>
+            <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Culpa inventore harum a dolorum amet ipsum id consequuntur, optio provident esse, 
+            fuga doloribus omnis veniam cumque similique vero, est ad aspernatur?</p>
+        </div>        
+    </div>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+        <p class="dia">Viernes 19</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>00:00 | <span>AC/DC</span></li>
+                    <li>22:00 | <span>Metallica</span></li>
+                    <li>20:00 | <span>Guns N' Roses</span></li>
+                    <li>18:30 | <span>Pearl Jam</span></li>
+                    <li>17:00 | <span>Rival Sons</span></li>
+                </ul>
+            </div>
+            <div class="escenario indie bg-verde">
+                <p class="nombre-escenario">Escenario Indie</p>
+
+                <ul class="calendario">
+                    <li>00:00 | <span>Twenty One Pilots</span></li>
+                    <li>22:00 | <span>Radiohead</span></li>
+                    <li>20:00 | <span>Franz Ferndinand</span></li>
+                    <li>18:30 | <span>The Kooks</span></li>
+                    <li>17:00 | <span>Phoenix</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="dia">Sabado 20</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>00:00 | <span>Rolling Stones</span></li>
+                    <li>22:00 | <span>Aerosmith</span></li>
+                    <li>20:00 | <span>Red Hot Chili Peppers</span></li>
+                    <li>18:30 | <span>Foo Fighters</span></li>
+                    <li>17:00 | <span>Greta Van Fleet</span></li>
+                </ul>
+            </div>
+            <div class="escenario indie bg-amarillo">
+                <p class="nombre-escenario">Escenario Indie</p>
+
+                <ul class="calendario">
+                    <li>00:00 | <span>Arctic Monkeys</span></li>
+                    <li>22:00 | <span>The Strokes</span></li>
+                    <li>20:00 | <span>The Killers</span></li>
+                    <li>18:30 | <span>Tame Impala</span></li>
+                    <li>17:00 | <span>The 1975</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+
+        <ul class="galeria-imagenes">
+
+        </ul>
+    </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Pase 1 Día</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>Incluye</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Acceso a todos los Escenarios</td>
+                        </tr>
+                        <tr>
+                            <td>Comida y Bedida</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>$100</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="premium plan">
+                <p>Pase 2 Días</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>Incluye</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Acceso a todos los Escenarios</td>
+                        </tr>
+                        <tr>
+                            <td>Comida y Bedida</td>
+                        </tr>
+                        <tr>
+                            <td>Camisa del Evento</td>
+                        </tr>
+                        <tr>
+                            <td>Acceso VIP</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>$180</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Rock & Indie Festival. Todos Los Derechos Reservados</p>
+    </footer>
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
